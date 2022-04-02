@@ -1,0 +1,105 @@
+/* FONT */
+@font-face {
+  font-family: "BodoniXT";
+  src: url("font/Bodonitown.ttf") format("truetype");
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "BodoniXT", serif;
+  font-size: 25px !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: rgb(233, 236, 239);
+}
+
+.jumbotron h1 {
+  font-family: "BodoniXT", serif;
+}
+
+.jumbotron img {
+  margin-top: 150px !important;
+}
+
+.jumbotron .icon-1 {
+  margin-top: 100px !important;
+}
+
+.jumbotron .bi-youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+.jumbotron .bi-instagram:hover {
+  color: #e1306c;
+}
+
+.jumbotron a {
+  color: rgb(33, 37, 41);
+}
+
+/* Filosofi */
+.fil-text {
+  text-align: justify;
+}
+
+.filosofi {
+  padding-top: 4rem;
+}
+
+.filosofi .garis {
+  width: 150px;
+  border-top: 4px solid rgb(85, 0, 255);
+  margin: auto;
+}
+
+/* Contact Us */
+.contact-us {
+  background-color: rgb(233, 236, 239);
+  min-height: 500px;
+}
+.contact-us .garis {
+  width: 180px;
+  border-top: 4px solid rgb(85, 0, 255);
+  margin: auto;
+}
+
+footer p {
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  /* Jumbotron */
+  .jumbotron img {
+    width: 200px;
+  }
+
+  .jumbotron .icon-1 {
+    margin-top: 50px !important;
+  }
+
+  /* Filosofi */
+  .filosofi {
+    margin-top: 40px;
+  }
+
+  .filosofi .garis {
+    width: 100px;
+  }
+  .filosofi .fil-text {
+    padding-top: 12px;
+  }
+
+  .filosofi .gambar-f {
+    margin-top: -10px !important;
+  }
+  /* Contact Us */
+  .contact-us {
+    padding-top: 4rem;
+  }
+
+  .contact-us .garis {
+    width: 100px;
+  }
+}
